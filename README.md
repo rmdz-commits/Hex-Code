@@ -36,6 +36,7 @@ Hex Value	Description
 Hex Value	Data Type	Description
 
 E70300E31EFF2FE1	Integer	Freeze integer value
+
 7A0404E31EFF2FE1	Float	Freeze float value
 
 
