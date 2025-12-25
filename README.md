@@ -1,20 +1,20 @@
 🔢 Hex Value Reference
 
-A clean and organized reference of hex values commonly used for strings, integers, floats, doubles, booleans, and NOP operations. This README is designed to be easy to scan and maintain.
+A clean and organized reference of hex values commonly used for strings, integers, floats, doubles, booleans, and numeric constants. All values are presented in tables for better readability, followed by a simple usage & cheat sheet explanation.
 
 
 ---
 
 📌 Overview
 
-Format: HEX_VALUE = Description
+Format: HEX_VALUE → Meaning / Value
 
-Use cases include value representation, freezing values, and boolean flags.
+Organized by data type
 
-Grouped by data type for clarity.
+Suitable as a quick reference (cheat sheet)
 
 
-> ⚠️ Note: This document is provided for educational and reference purposes. Ensure you understand the context where these values are applied.
+> ⚠️ Disclaimer: This documentation is for educational and reference purposes only.
 
 
 
@@ -25,7 +25,7 @@ Grouped by data type for clarity.
 
 Hex Value	Description
 
-747080E51EFF2FE1	Strings (Coins, Gems)
+747080E51EFF2FE1	String values (Coins, Gems)
 
 
 
@@ -33,20 +33,20 @@ Hex Value	Description
 
 🔢 Integer & Float Controls
 
-Hex Value	Type	Description
+Hex Value	Data Type	Description
 
-E70300E31EFF2FE1	Int	Freeze Integer
-7A0404E31EFF2FE1	Float	Freeze Float
+E70300E31EFF2FE1	Integer	Freeze integer value
+7A0404E31EFF2FE1	Float	Freeze float value
 
 
 
 ---
 
-🚫 NOP
+🚫 NOP (No Operation)
 
 Hex Value	Description
 
-00F020E31EFF2FE1	NOP Code
+00F020E31EFF2FE1	NOP Code (disable operation)
 
 
 
@@ -54,7 +54,7 @@ Hex Value	Description
 
 📐 Double Values
 
-Hex Value	Value (Double)
+Hex Value	Double Value
 
 3B0544E31EFF2FE1	3000
 7A0544E31EFF2FE1	4000
@@ -64,8 +64,8 @@ FA0544E31EFF2FE1	8000
 1C0644E31EFF2FE1	9984
 1D0644E31EFF2FE1	10048
 C30744E31EFF2FE1	99840
-AA0844E31EFF2FE1	348160
-670944E31EFF2FE1	946176
+AA0844E31EFF2FE1	348,160
+670944E31EFF2FE1	946,176
 BE0C44E31EFF2FE1	99,614,720
 6E0E44E31EFF2FE1	998,244,352
 BA0145E31EFF2FE1	99,857,989,632
@@ -78,8 +78,8 @@ BA0145E31EFF2FE1	99,857,989,632
 
 Hex Value	Boolean	Description
 
-0100A0E31EFF2FE1	True	Value 1
-0000A0E31EFF2FE1	False	Value 0
+0100A0E31EFF2FE1	True	Boolean true (1)
+0000A0E31EFF2FE1	False	Boolean false (0)
 
 
 
@@ -106,7 +106,51 @@ FF00A0E31EFF2FE1	255
 
 Hex Value	Description
 
-1207A0E31EFF2FE1	High Value for Money
+1207A0E31EFF2FE1	High value for money
+
+
+
+---
+
+📘 Example Usage / Cheat Sheet
+
+What is this used for?
+
+This hex reference is commonly used as a cheat sheet when modifying or inspecting memory values, such as:
+
+Setting currency (coins, gems)
+
+Freezing values so they don’t decrease
+
+Forcing boolean states (true / false)
+
+Replacing instructions with NOP
+
+
+Example Scenarios
+
+1️⃣ Freeze Money Value
+
+Apply E70300E31EFF2FE1 to freeze an integer-based value
+
+
+2️⃣ Set Boolean Flag
+
+Enable feature → 0100A0E31EFF2FE1
+
+Disable feature → 0000A0E31EFF2FE1
+
+
+3️⃣ Increase Currency (Double)
+
+9,999 → 1C0644E31EFF2FE1
+
+99,614,720 → BE0C44E31EFF2FE1
+
+
+4️⃣ Disable Instruction
+
+Replace target code with 00F020E31EFF2FE1 (NOP)
 
 
 
