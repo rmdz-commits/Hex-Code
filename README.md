@@ -8,9 +8,7 @@ A clean and organized reference of hex values commonly used for strings, integer
 📌 Overview
 
 Format: HEX_VALUE → Meaning / Value
-
 Organized by data type
-
 Suitable as a quick reference (cheat sheet)
 
 
