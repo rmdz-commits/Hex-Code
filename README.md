@@ -1,117 +1,117 @@
-747080E51EFF2FE1 = For Strings [Coins, Gems]
+🔢 Hex Value Reference
 
-E70300E31EFF2FE1 = Freeze int
+A clean and organized reference of hex values commonly used for strings, integers, floats, doubles, booleans, and NOP operations. This README is designed to be easy to scan and maintain.
 
-7A0404E31EFF2FE1 = FreezeFloat
 
-00F020E31EFF2FE1 = NOP CODE
+---
 
-3B0544E31EFF2FE1 = 3000 For double
+📌 Overview
 
-7A0544E31EFF2FE1 = 4000 For double
+Format: HEX_VALUE = Description
 
-840945E31EFF2FE1 = 5984 For double
+Use cases include value representation, freezing values, and boolean flags.
 
-FA0544E31EFF2FE1 = 8000 For double
+Grouped by data type for clarity.
 
-1C0644E31EFF2FE1 = 9999 For double
 
-1C0644E31EFF2FE1 = 9984 For double
+> ⚠️ Note: This document is provided for educational and reference purposes. Ensure you understand the context where these values are applied.
 
-1D0644E31EFF2FE1 = 10048 For double
 
-C30744E31EFF2FE1 = 99840 For double
 
-AA0844E31EFF2FE1 = 348160 For double
 
-670944E31EFF2FE1 = 946176 For double
+---
 
-BE0C44E31EFF2FE1 = 99614720 For double
+🧵 String Values
 
-6E0E44E31EFF2FE1 = 998244352 For double
+Hex Value	Description
 
-BA0145E31EFF2FE1 = 99857989632 For double
+747080E51EFF2FE1	Strings (Coins, Gems)
 
-0100A0E31EFF2FE1 = VALUE 1 Also = True used For bool
 
-0000A0E31EFF2FE1 = Value 0 Also = False used For bool
 
-1207A0E31EFF2FE1 = HIGH VALUE FOR MONEY
+---
 
-0200A0E31EFF2FE1 = Number2
+🔢 Integer & Float Controls
 
-0700A0E31EFF2FE1 = Number 7
+Hex Value	Type	Description
 
-0A00A0E31EFF2FE1 = Number10
+E70300E31EFF2FE1	Int	Freeze Integer
+7A0404E31EFF2FE1	Float	Freeze Float
 
-0F00A0E31EFF2FE1 = Number15
 
-1000A0E31EFF2FE1 = Number16
 
-1100A0E31EFF2FE1 = Number17
+---
 
-3700A0E31EFF2FE1 = 50
+🚫 NOP
 
-FF00A0E31EFF2FE1 = 255
+Hex Value	Description
 
-120780E31EFF2FE1 = VALUE OF12 Million
+00F020E31EFF2FE1	NOP Code
 
-DC0F00E31EFF2FE1 = VALUE4060
 
-DC0F0FE31EFF2FE1 = VALUE120000
 
-010AA0E31EFF2FE1 = 1000
+---
 
-0108A0E31EFF2FE1 = 10000
+📐 Double Values
 
-0102A0E31EFF2FE1 = 10000000
+Hex Value	Value (Double)
 
-C20A646000000002 = Speed Hack
+3B0544E31EFF2FE1	3000
+7A0544E31EFF2FE1	4000
+840945E31EFF2FE1	5984
+FA0544E31EFF2FE1	8000
+1C0644E31EFF2FE1	9999
+1C0644E31EFF2FE1	9984
+1D0644E31EFF2FE1	10048
+C30744E31EFF2FE1	99840
+AA0844E31EFF2FE1	348160
+670944E31EFF2FE1	946176
+BE0C44E31EFF2FE1	99,614,720
+6E0E44E31EFF2FE1	998,244,352
+BA0145E31EFF2FE1	99,857,989,632
 
-0104A0E31EFF2FE1 = 1000000
 
-0E00A0E31EFF2FE1 = Fire Rate
 
-000040E31EFF2FE1 = 0 ForFloat
+---
 
-800F43E31EFF2FE1 = 1 ForFloat
+✅ Boolean Values
 
-000044E31EFF2FE1 = 2 ForFloat
+Hex Value	Boolean	Description
 
-400044E31EFF2EE1 = 3 ForFloat
+0100A0E31EFF2FE1	True	Value 1
+0000A0E31EFF2FE1	False	Value 0
 
-800044E31EFF2EE1 = 4 ForFloat
 
-A00044E31EFF2EE1 = 5 ForFloat
 
-200104E31EFF2FE1 = 10 ForFloat
+---
 
-200244E31EFF2FE1 = 40 ForFloat
+🔢 Numeric Constants
 
-510044E31EFF2FE1 = 69 ForFloat
+Hex Value	Number
 
-C60244E31EFF2FE1 = 99 ForFloat
+0200A0E31EFF2FE1	2
+0700A0E31EFF2FE1	7
+0A00A0E31EFF2FE1	10
+0F00A0E31EFF2FE1	15
+1000A0E31EFF2FE1	16
+1100A0E31EFF2FE1	17
+3700A0E31EFF2FE1	50
+FF00A0E31EFF2FE1	255
 
-C70244E31FFF2FE1 = 99.9 ForFloat
 
-C80244E31EFF2FE1 = 100 ForFloat
 
-160344E31EFF2FE1 = 150 ForFloat
+---
 
-480344E31EFF2FE1 = 200 ForFloat
+💰 High Money Value
 
-960344E31EFF2FE1 = 300 ForFloat
+Hex Value	Description
 
-C80344E31EFF2FE1 = 400 ForFloat
+1207A0E31EFF2FE1	High Value for Money
 
-FA0304E31EFF2FE1 = 500 ForFloat
 
-7A0404E31EFF2FE1 = FLOATFREEZE/999
 
-790444E31EFF2FE1 = 999.9 ForFloat
+---
 
-7A0444E31EFF2FE1 = 1000 ForFloat
+📄 License
 
-FA0404E31EFF2FE1 = 2000 maxAmountForFloat
-
-0F0702E31EFF2FE1 = 9,999
+Free to use for learning and documentation purposes.
