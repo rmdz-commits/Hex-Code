@@ -1,180 +1,96 @@
-🔢 Hex Value Reference
+# 🔢 Hex Value Reference
 
-A clean and organized reference of hex values commonly used for strings, integers, floats, doubles, booleans, and numeric constants. All values are presented in tables for better readability, followed by a simple usage & cheat sheet explanation.
+![Platform](https://img.shields.io/badge/Platform-ARM%20%2F%20Mobile-blue?style=for-the-badge&logo=android)
+![Type](https://img.shields.io/badge/Type-Memory%20Editing-red?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Educational-green?style=for-the-badge)
 
-
----
-
-📌 Overview
-
-Format: HEX_VALUE → Meaning / Value
-Organized by data type
-Suitable as a quick reference (cheat sheet)
-
-
-> ⚠️ Disclaimer: This documentation is for educational and reference purposes only.
-
-
-
+> **A curated reference of Hex values commonly used for memory modification.** > Optimized for modifying Integers, Floats, Doubles, Booleans, and Assembly Instructions (NOP).
 
 ---
 
-🧵 String Values
-
-Hex Value	Description
-
-747080E51EFF2FE1	String values (Coins, Gems)
-
-
-
----
-
-🔢 Integer & Float Controls
-
-Hex Value	Data Type	Description
-
-E70300E31EFF2FE1	Integer	Freeze integer value
-
-7A0404E31EFF2FE1	Float	Freeze float value
-
-
+## 📑 Table of Contents
+- [Control & Operations](#-control--operations)
+- [Boolean Logic](#-boolean-logic)
+- [Double Values (Currency/Points)](#-double-values)
+- [Numeric Constants](#-numeric-constants)
+- [Usage Guide](#-usage-guide)
 
 ---
 
-🚫 NOP (No Operation)
+## 🛠 Control & Operations
+Use these values to freeze memory addresses, disable instructions, or manipulate specific data types.
 
-Hex Value	Description
-
-00F020E31EFF2FE1	NOP Code (disable operation)
-
-
-
----
-
-📐 Double Values
-
-Hex Value	Double Value
-
-3B0544E31EFF2FE1	3000
-
-7A0544E31EFF2FE1	4000
-
-840945E31EFF2FE1	5984
-
-FA0544E31EFF2FE1	8000
-
-1C0644E31EFF2FE1	9999
-
-1C0644E31EFF2FE1	9984
-
-1D0644E31EFF2FE1	10048
-
-C30744E31EFF2FE1	99840
-
-AA0844E31EFF2FE1	348,160
-
-670944E31EFF2FE1	946,176
-
-BE0C44E31EFF2FE1	99,614,720
-
-6E0E44E31EFF2FE1	998,244,352
-
-BA0145E31EFF2FE1	99,857,989,632
-
-
+| Description | Hex Value | Type |
+| :--- | :---: | :---: |
+| **Freeze Integer** | `E70300E31EFF2FE1` | `int` |
+| **Freeze Float** | `7A0404E31EFF2FE1` | `float` |
+| **NOP (No Operation)** | `00F020E31EFF2FE1` | `instruction` |
+| **String (Coins/Gems)** | `747080E51EFF2FE1` | `string` |
 
 ---
 
-✅ Boolean Values
+## ✅ Boolean Logic
+Force specific states (Enable/Disable features).
 
-Hex Value	Boolean	Description
-
-0100A0E31EFF2FE1	True	Boolean true (1)
-
-0000A0E31EFF2FE1	False	Boolean false (0)
-
-
+| State | Value | Hex Code |
+| :--- | :---: | :---: |
+| **TRUE** (Enable) | `1` | `0100A0E31EFF2FE1` |
+| **FALSE** (Disable) | `0` | `0000A0E31EFF2FE1` |
 
 ---
 
-🔢 Numeric Constants
+## 💎 Double Values
+Commonly used for setting large currency amounts, scores, or resources.
 
-Hex Value	Number
-
-0200A0E31EFF2FE1	2
-
-0700A0E31EFF2FE1	7
-
-0A00A0E31EFF2FE1	10
-
-0F00A0E31EFF2FE1	15
-
-1000A0E31EFF2FE1	16
-
-1100A0E31EFF2FE1	17
-
-3700A0E31EFF2FE1	50
-
-FF00A0E31EFF2FE1	255
-
-
+| Target Value | Hex Code |
+| :--- | :---: |
+| **3,000** | `3B0544E31EFF2FE1` |
+| **4,000** | `7A0544E31EFF2FE1` |
+| **5,984** | `840945E31EFF2FE1` |
+| **8,000** | `FA0544E31EFF2FE1` |
+| **9,984** | `1C0644E31EFF2FE1` |
+| **9,999** | `1C0644E31EFF2FE1` |
+| **10,048** | `1D0644E31EFF2FE1` |
+| **99,840** | `C30744E31EFF2FE1` |
+| **348,160** | `AA0844E31EFF2FE1` |
+| **946,176** | `670944E31EFF2FE1` |
+| **99,614,720** | `BE0C44E31EFF2FE1` |
+| **998,244,352** | `6E0E44E31EFF2FE1` |
+| **99,857,989,632** | `BA0145E31EFF2FE1` |
 
 ---
 
-💰 High Money Value
+## 🔢 Numeric Constants
+Standard integer values often used for level counts, item quantities, or stats.
 
-Hex Value	Description
-
-1207A0E31EFF2FE1	High value for money
-
-
-
----
-
-📘 Example Usage / Cheat Sheet
-
-What is this used for?
-
-This hex reference is commonly used as a cheat sheet when modifying or inspecting memory values, such as:
-
-Setting currency (coins, gems)
-
-Freezing values so they don’t decrease
-
-Forcing boolean states (true / false)
-
-Replacing instructions with NOP
-
-
-Example Scenarios
-
-1️⃣ Freeze Money Value
-
-Apply E70300E31EFF2FE1 to freeze an integer-based value
-
-
-2️⃣ Set Boolean Flag
-
-Enable feature → 0100A0E31EFF2FE1
-
-Disable feature → 0000A0E31EFF2FE1
-
-
-3️⃣ Increase Currency (Double)
-
-9,999 → 1C0644E31EFF2FE1
-
-99,614,720 → BE0C44E31EFF2FE1
-
-
-4️⃣ Disable Instruction
-
-Replace target code with 00F020E31EFF2FE1 (NOP)
-
-
+| Number | Hex Code | Special Note |
+| :---: | :---: | :--- |
+| **2** | `0200A0E31EFF2FE1` | - |
+| **7** | `0700A0E31EFF2FE1` | - |
+| **10** | `0A00A0E31EFF2FE1` | - |
+| **15** | `0F00A0E31EFF2FE1` | - |
+| **16** | `1000A0E31EFF2FE1` | - |
+| **17** | `1100A0E31EFF2FE1` | - |
+| **50** | `3700A0E31EFF2FE1` | - |
+| **255** | `FF00A0E31EFF2FE1` | Max Byte Value |
+| **High Value** | `1207A0E31EFF2FE1` | Generic High Money |
 
 ---
 
-📄 License
+## 📘 Usage Guide
 
-Free to use for learning and documentation purposes.
+### 1️⃣ Freezing Values
+To prevent a value (like Health or Ammo) from decreasing:
+> Apply `E70300E31EFF2FE1` to the target address.
+
+### 2️⃣ Enabling Features
+To force a feature on (e.g., Unlock All):
+> Replace the check instruction with **Boolean True**: `0100A0E31EFF2FE1`
+
+### 3️⃣ Disabling Checks
+To bypass a security check or function:
+> Overwrite the instruction with **NOP**: `00F020E31EFF2FE1`
+
+---
+
+###### ⚠️ Disclaimer: This documentation is for educational and reference purposes only.
